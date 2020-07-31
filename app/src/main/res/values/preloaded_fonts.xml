@@ -3,5 +3,9 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/baloo</item>
         <item>@font/baloo_bhai</item>
+        <item>@font/bree_serif</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/pacifico</item>
+        <item>@font/vampiro_one</item>
     </array>
 </resources>
