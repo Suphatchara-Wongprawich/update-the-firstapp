@@ -30,7 +30,8 @@
 \n\nE-mail : Suphatchara.Wo@rmuti.ac.th
 \nTelephone: 065-2809975
 </string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
