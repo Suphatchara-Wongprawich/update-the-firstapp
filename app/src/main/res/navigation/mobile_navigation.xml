@@ -22,4 +22,9 @@
         android:name="com.example.firstapp.ui.slideshow.SlideshowFragment"
         android:label="CONTACT"
         tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_contactlist"
+        android:name="com.example.firstapp.ui.Contactlist.ContactlistFragment"
+        android:label="fragment_contactlist"
+        tools:layout="@layout/fragment_contactlist" />
 </navigation>

@@ -13,6 +13,10 @@
             android:id="@+id/nav_contact"
             android:icon="@android:drawable/sym_action_call"
             android:title="Contact" />
+        <item
+            android:id="@+id/nav_contactlist"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="ContactList" />
 
     </group>
 </menu>
