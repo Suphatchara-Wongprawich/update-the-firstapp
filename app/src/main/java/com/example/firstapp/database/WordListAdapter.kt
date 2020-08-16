@@ -21,7 +21,7 @@ class WordListAdapter internal constructor(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
-        val itemView = inflater.inflate(R.layout., parent, false)
+        val itemView = inflater.inflate(R.layout.recyclerview_item, parent, false)
         return WordViewHolder(itemView)
     }
 
