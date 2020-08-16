@@ -12,8 +12,25 @@
         android:layout_height="match_parent">
 
 
+        <EditText
+            android:id="@+id/edit_word"
+            android:layout_width="297dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="35dp"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textAutoComplete"
+            android:text="AddName"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/add_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
         <Button
-            android:id="@+id/button"
+            android:id="@+id/add_button"
             android:layout_width="113dp"
             android:layout_height="61dp"
             android:layout_marginStart="162dp"
@@ -28,20 +45,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.705" />
-
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/input"
-            android:layout_width="353dp"
-            android:layout_height="37dp"
-            android:layout_marginStart="58dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="58dp"
-            android:layout_marginBottom="24dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.566" />
 
         <TextView
             android:id="@+id/textView7"
