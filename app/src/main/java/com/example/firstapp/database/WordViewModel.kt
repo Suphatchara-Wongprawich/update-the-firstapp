@@ -1,8 +1,11 @@
 package com.example.firstapp.database
 
 import android.app.Application
-import android.arch.lifecycle.AndroidViewModel
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class WordViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -11,7 +14,7 @@ class WordViewModel(application: Application) : AndroidViewModel(application) {
     val allWords: LiveData<List<Word>>
 
     init {
-        val wordsDao = WordRoomDatabase.getDatabase(application, viewModelScope).wordDao()
+        val wordsDao = WordRoomDatabase.getDatabase(application).wordDao()
         repository = WordRepository(wordsDao)
         allWords = repository.allWords
     }
