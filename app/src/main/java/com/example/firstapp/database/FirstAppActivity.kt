@@ -3,13 +3,14 @@ package com.example.firstapp.database
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+
 import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 import com.example.firstapp.R
 
-class FirstAppActivity : AppCompatActivity () {
+class FirstAppActivity : AppCompatActivity() {
     private lateinit var editWordView: EditText
 
     public override fun onCreate(savedInstanceState: Bundle?) {
